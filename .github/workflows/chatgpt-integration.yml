@@ -1,11 +1,9 @@
-name: ChatGPT Integration
-
 name: Instalar dependências
   run: |
     python -m pip install --upgrade pip
     pip install openai
 
-
+name: ChatGPT Integration
 on:
   push:
     branches:
